@@ -60,6 +60,10 @@ summary::-webkit-details-marker {
   transition: fill 0.3s;
 }
 
+.header_icon_menu {
+  cursor: pointer;
+}
+
 .header__right {
   display: flex;
   align-items: center;
@@ -532,6 +536,7 @@ summary::-webkit-details-marker {
 }
 
 .button {
+  cursor: pointer;
   margin-top: 10px;
   width: 212px;
   height: 48px;
@@ -721,6 +726,7 @@ summary::-webkit-details-marker {
   color: white;
   text-align: left;
   padding-left: 12px;
+  cursor: pointer;
 }
 
 .button_pink:hover {
@@ -1005,6 +1011,91 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
   width: 273px;
   min-height: 50px;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.joinnow__button {
+  margin: 0;
+  width: 167px;
+  min-height: 50px;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.registration__box {
+  margin-top: 64px;
+  margin-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+  gap: 128px;
+}
+
+.registration__box__left {
+  width: 360px;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart__form__text {
+  color: rgb(177, 177, 177);
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.form__radio__box {
+  display: flex;
+}
+
+.cart__form__radio {
+  cursor: pointer;
+}
+
+input[type=radio] {
+  margin-right: 10px;
+}
+
+.cart__form__radio__text {
+  margin-right: 20px;
+}
+
+.cart__form__radio__text {
+  color: rgb(0, 0, 0);
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+}
+
+.registration__box__right {
+  width: 652px;
+  text-align: justify;
+}
+
+.registration__text {
+  color: rgb(0, 0, 0);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  margin-bottom: 22px;
+}
+
+.registration_list li {
+  padding-bottom: 16px;
+  list-style-type: none;
+}
+
+.registration_list li::before {
+  content: url(img/checkmark.svg);
 }
 
 @media (max-width: 1204px) {
