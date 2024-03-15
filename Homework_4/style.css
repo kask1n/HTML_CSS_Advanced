@@ -1059,15 +1059,16 @@ input[type=number]::-webkit-outer-spin-button {
   cursor: pointer;
 }
 
+.form__radio__box label {
+  margin-right: 20px;
+}
+
 input[type=radio] {
   margin-right: 10px;
 }
 
-.cart__form__radio__text {
+.registration__form__radio__text {
   margin-right: 20px;
-}
-
-.cart__form__radio__text {
   color: rgb(0, 0, 0);
   font-family: Lato;
   font-size: 11px;
