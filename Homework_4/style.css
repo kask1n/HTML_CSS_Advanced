@@ -463,7 +463,7 @@ summary::-webkit-details-marker {
 .filter-sort {
   padding-top: 39px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
 }
 
@@ -571,6 +571,10 @@ summary::-webkit-details-marker {
 
 .button:hover path {
   fill: white;
+}
+
+.product_button {
+  margin-top: 32px;
 }
 
 .slider {
@@ -1214,9 +1218,6 @@ input[type=radio] {
   .head {
     flex-direction: column;
     justify-content: space-evenly;
-  }
-  .filter-sort {
-    justify-content: space-between;
   }
   .filter__text {
     display: none;
