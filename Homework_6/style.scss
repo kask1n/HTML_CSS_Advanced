@@ -1347,6 +1347,12 @@ input[type="radio"] {
   .registration__box {
     flex-direction: column;
     align-items: center;
+    gap: 40px;
+  }
+
+  .registration__box__right {
+    width: 408px;
+    align-self: center;
   }
 
   .cart__box__right {
