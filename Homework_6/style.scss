@@ -1062,7 +1062,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin-top: 16px;
   margin-bottom: 16px;
   gap: 20px;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .form__input {
@@ -1350,9 +1350,16 @@ input[type="radio"] {
     gap: 40px;
   }
 
+  .registration__box__left {
+    margin-right: 0;
+  }
+
   .registration__box__right {
-    width: 408px;
+    margin: auto;
+    min-width: 291px;
+    width: 360px;
     align-self: center;
+    margin-left: calc(50% - 179px);
   }
 
   .cart__box__right {
